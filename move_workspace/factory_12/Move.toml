@@ -1,0 +1,16 @@
+[package]
+name = "factory_12"
+version = "1.0.0"
+authors = []
+
+[addresses]
+exampleAddress ="dc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
