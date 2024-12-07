@@ -1,0 +1,16 @@
+[package]
+name = "custom_2"
+version = "1.0.0"
+authors = []
+
+[addresses]
+exampleAddress ="335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]

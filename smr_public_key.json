@@ -1,0 +1,13 @@
+{
+  "active": "ETHINDIA",
+  "list": {
+    "ETHINDIA": {
+      "ed25519_public_key": "0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+      "account_address": "335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "NEW": {
+      "ed25519_public_key": "8b655ffe691f4899d9e94403e9764050b5c72d35aee675adc975140df9131278",
+      "account_address": "dc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"
+    }
+  }
+}

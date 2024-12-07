@@ -1,0 +1,12 @@
+{
+  "function": "335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::mock_token::multi_transfer",
+  "type_arguments": [],
+  "arguments": [
+    "100",
+    [
+      "0xc0921a64b52d22f7ddb4ea710cdb8aab07c9351d9899b56599123626b068964c",
+      "0xc0921a64b52d22f7ddb4ea710cdb8aab07c9351d9899b56599123626b068964c",
+      "0xc0921a64b52d22f7ddb4ea710cdb8aab07c9351d9899b56599123626b068964c"
+    ]
+  ]
+}
