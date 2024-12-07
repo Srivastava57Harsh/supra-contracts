@@ -14750,3 +14750,321 @@ Output:
 }
 
 
+Local: (2024-12-07 14:44:21.685810942 +00:00)	 Utc: (2024-12-07 14:44:21.685881336 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x90104330226c8cfae95cae3041d72abd01e4d33f77a59830e8731191b48de9c797b78ebce4e8d4a178423affa7f1ab915ea305393ac1fc8f3e37158974f7680c"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x2b2c5975b8ce0f0145d27f3be85dddb21b185749b23c0a673e615b826a19f49d",
+    "height": 4560229,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733582661094997,
+      "utc_date_time": "2024-12-07T14:44:21.094997+00:00"
+    }
+  },
+  "hash": "0x507809f48073847b983a2fe0ffd87b78ab6057160af50fb68b24f80cd5dc3c73",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733582689000000,
+      "utc_date_time": "2024-12-07T14:44:49+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 132,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918::custom_token_testing_twelve::register",
+      "type_arguments": [
+        "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918::custom_token_testing_twelve::Token2"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 4,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "4"
+          }
+        }
+      ],
+      "vm_status": "Move abort in 0x1::coin: ECOIN_INFO_NOT_PUBLISHED(0x10003): `CoinType` hasn't been initialized as a coin"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 14:44:38.477224621 +00:00)	 Utc: (2024-12-07 14:44:38.477291027 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x666f1bdfdf3f7394c159dadff22be61e32bc1b09d58f323f8069508f644d18fb966f5f2e07c6864bc79cc651c2b6e5dd1af2308202b1024c4d395b44e2595c08"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x937638237ffbe0317d9497719eef75b32df69ac6d2913be58499ed2cb45c0c73",
+    "height": 4560251,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733582677882693,
+      "utc_date_time": "2024-12-07T14:44:37.882693+00:00"
+    }
+  },
+  "hash": "0x33edb7c35f941e1d3c659f7a3c7f1723ecb740e412a2329d6043e3a02ae3cec7",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733582706000000,
+      "utc_date_time": "2024-12-07T14:45:06+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 133,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918::custom_token_testing_twelve::register",
+      "type_arguments": [
+        "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918::custom_token_testing_twelve::Token2"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 4,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "4"
+          }
+        }
+      ],
+      "vm_status": "Move abort in 0x1::coin: ECOIN_INFO_NOT_PUBLISHED(0x10003): `CoinType` hasn't been initialized as a coin"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 15:13:17.714272552 +00:00)	 Utc: (2024-12-07 15:13:17.714368554 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0xa8ec1cc29f534e781b5a8e08ef3ea5d64a83820608b67ebc4f04c14e5247a62c68d4054207f0a728024a167cf361ac6bec62d8653c05959942dabca72094570a"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x04edb97efd6e2651e18631b853772379d5159d3938f4502dc82fd5d8026a6edf",
+    "height": 4562145,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733584394745812,
+      "utc_date_time": "2024-12-07T15:13:14.745812+00:00"
+    }
+  },
+  "hash": "0xa29dd515fa5b4434ed4931615847a316fad19e70145e1a30e264a6ee658aec3d",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733584418000000,
+      "utc_date_time": "2024-12-07T15:13:38+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 134,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918::token_factory_gamma_testing_twelve::create_token",
+      "type_arguments": [],
+      "arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+        "TestToken",
+        "TEST",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 5,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "5"
+          }
+        }
+      ],
+      "vm_status": "Move abort in 0x1::coin: ECOIN_INFO_ADDRESS_MISMATCH(0x10001): Address of account which is used to initialize a coin `CoinType` doesn't match the deployer of module"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 15:24:23.037578779 +00:00)	 Utc: (2024-12-07 15:24:23.037649979 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x429316ed7f41d3e81948393efbc4f67aed82417293d34a0d5723cd9987130e407b24de9f203eb1532463a81303390e3b7dfeba570dc2dbe0c223115f7169f70b"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xf54d00f6cfa627478f90af599429ebacf7eb296c4bca8fa5b2df97325d6be6d7",
+    "height": 4562896,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733585060639799,
+      "utc_date_time": "2024-12-07T15:24:20.639799+00:00"
+    }
+  },
+  "hash": "0x99bfb5c0265f7436e76eacf0696f4f5f7dca6623ec9b94a64e5593872a9fbd4e",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733585084000000,
+      "utc_date_time": "2024-12-07T15:24:44+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 135,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918::custom_token_testing_twelve::register",
+      "type_arguments": [
+        "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918::custom_token_testing_twelve::Token0"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 511,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+          },
+          "sequence_number": "15",
+          "type": "0x1::account::CoinRegisterEvent",
+          "data": {
+            "type_info": {
+              "account_address": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918",
+              "module_name": "0x637573746f6d5f746f6b656e5f74657374696e675f7477656c7665",
+              "struct_name": "0x546f6b656e30"
+            }
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "5",
+            "storage_fee_quants": "50200",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "511"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 15:30:17.128183953 +00:00)	 Utc: (2024-12-07 15:30:17.128230346 UTC)
+
+CMD:
+View
+Output:
+{"result":[[{"creator":"0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918","name":"IndiaToken","symbol":"IND","token_address":"0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"},{"creator":"0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918","name":"IndiaToken","symbol":"IND","token_address":"0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"},{"creator":"0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918","name":"TestToken","symbol":"TEST","token_address":"0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"},{"creator":"0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918","name":"TestToken1","symbol":"TEST","token_address":"0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"}]]}
+
+
