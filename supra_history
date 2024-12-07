@@ -11508,3 +11508,2247 @@ Output:
 }
 
 
+Local: (2024-12-07 07:16:56.589899232 +00:00)	 Utc: (2024-12-07 07:16:56.590029915 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0xd2d1e63f7f1f9673cb38a60d7762f05bfe13db340ef057a7ae7bff92520f8e1cc6cf5c699be800fce91f7e1724ec6897f6cbd68215d7c865164661a60525ae09"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x975827452d28ce0828a213898bbfec55b0d68d763e0bc06d3af3cfeb2900cea8",
+    "height": 4529826,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733555813482999,
+      "utc_date_time": "2024-12-07T07:16:53.482999+00:00"
+    }
+  },
+  "hash": "0x376da76e249c43489e2e0f54022f152244093c268f7c756fcf72fb62b2242de7",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733555841000000,
+      "utc_date_time": "2024-12-07T07:17:21+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 112,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_seven::initialize",
+      "type_arguments": [],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 4,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "4"
+          }
+        }
+      ],
+      "vm_status": "Execution failed in 0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_seven::initialize at code offset 4"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 08:09:08.522490756 +00:00)	 Utc: (2024-12-07 08:09:08.522669595 UTC)
+
+CMD:
+Init
+Output:
+{
+  "Result": "Success"
+}
+
+
+Local: (2024-12-07 08:53:47.695329153 +00:00)	 Utc: (2024-12-07 08:53:47.695553705 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2024-12-07 08:54:50.659682290 +00:00)	 Utc: (2024-12-07 08:54:50.659727674 UTC)
+
+CMD:
+Compile
+Output:
+{
+  "Result": [
+    "335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine",
+    "335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine"
+  ]
+}
+
+
+Local: (2024-12-07 08:55:58.630431378 +00:00)	 Utc: (2024-12-07 08:55:58.630504218 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x2e8003a0062ba043cf0d273b76ab5c7deec356030bc132cf022dfba78a1f1154f24fc028f45d439c8969b45dfbf62e30c28c6733d1a8008702cc027e745bfa03"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x0ac86e25064135878823b2dc1b3cdfb4c9393f460b66b0f6095f0eb2697cad98",
+    "height": 4536537,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733561755564399,
+      "utc_date_time": "2024-12-07T08:55:55.564399+00:00"
+    }
+  },
+  "hash": "0xf44f0895ecc6bb45cc2832d0c193e67837a375b8ee0ef3346cae4cfa2230e7c1",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733561783000000,
+      "utc_date_time": "2024-12-07T08:56:23+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 113,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x0a666163746f72795f3130010000000000000000403032454234434530383745463136464244363938314637323339374545343630343335393746364238463046304443463741363836423641443635454330433582021f8b08000000000002ff4d8fcb6ec3201045f77c85c5de260e711c57caa28be607bab4ac6a8021b65203e2e1367f5f50942acb7b3433f7cce840dee08a1331b06275aea80619adbf7fb53b4a36f461b1a6e0b6d93599408ab3f5219371226404a53c86806122f80babfbc6f707a9ce94f34e036a0ebc1bf85e9eb8e860af7ba975870ab187416b7e125274b2057554b2ed8f78e028d400fad0b734df57b8d52f1d0538340a8d5c30349fc979b8f82cfe63fd6d22d72516d5394617de18cb714ea29176651f267aebeef5c526a320e69f18b868432dadc7260f52e2712bcbb9919290845a7c898fa9d56ec8f4b38885d25bffe7a7e8abdb44fe00e44b55295a0100000219637573746f6d5f746f6b656e5f74657374696e675f6e696e6599061f8b08000000000002ff95555d4fdb30147d9fb4ff70d124d46811d0a6a51046256065aab47512744fd31439c935442476143b6305f1df67c7699b2f28cd4b926bdfe373cebdb6131ee631c2d13fc7195182d421cee8d41904278e3f22033a0e281d61883826a7943a277ee08f823e098fc3a03f3ec6a1837e784ae870dc77dd201792279ee40fc83c894246ecce63114378fef801d4930b0491a719f16846127ce4d983cae2113bab8ccbd07585cc54aeebde16efd66874c7305351135793f340c2422f7b04f744c0032e6d15e619da10f054fd84194fe1f9a59dd0df3561b06b82b36bc2705b824909381312a6defce7c2bb997e9bdd2ea637d3af2ee4c7433887fe597dd66c7efbebfa7a76359bce17dee5c5f78bf9d5743577b0b632cdfd380a80e60c2216c988c4d1137e29582d9629ba9a157c36b4d45bf3522f4d6cd23308faa1245013962eec9b4ad99b21d31bfc51455d206198a1109561a6bac20553f54a582c139fc71d0325494f35551a2f0b3d66d072a1a71bcb752ff38c5d9194f8511cc9e546cb44dbaa275c67884ff8e6941f11939d13ac5567eb2746093d5f2de70524b58116b8e63b5100facb526e1bc82e7bab1e567cb4eb51ed512364fc69044f1affaac37013b1ce36df75099a9f58f3d4cc7b759b6dd85febe944393c841bbc8b84c40c080b21c4948b48aae257eb5fa92285de5e698bf04810f05cc16725048655872a0056cdfd72e11905c6256c926dd02501798fa5b25ca81e82559dea0086841e2bba4728a9ab8955a92f80b1c0e6ea26b9145b256ada48d4103a8ddbd63d66e6fa04287c56bb9bd3525e884a7842b44a1d10aa530e0e0e6a5b1b99cc96c5065f59f4caf69ef4ca42acb771cdee5d6a66d25db7dcef1ea72b6cab5d4383d926b7e653b3b1e1484ba4cc0813f40d9195532be349f791d5755291c478b33971aa42881098c9bddebb9bdab25b277955671dcf273161016eb158eb51f64ece4baef62bb740751d83df366d52a0d9ca0bbb445b65adadfff4fb6f848f7f5af7488b6ca300f5bbc03277d273935287647306bc93852a4197f5cd8e5724aa547ccee33697ade5d4001b622fff01c64f986162090000000020746f6b656e5f666163746f72795f67616d6d615f74657374696e675f6e696e65aa071f8b08000000000002ffc5566d6bdc3810fe5ee87f5039386c62aebbebdda4515ea0dc2ddc715cef68025728c5c8f26863625bae2c27d986fdef952dbf48daed966d03f1879556339a9767463393f3a4ce004d1ec270c108b090848bd37046df84f182ccd809656c0109c00939652c7c13d37841a724394ee8f4e418e621c4c92961f39329c692df421131422517eb6845f29c44122a9916aba8480b408f2f5f20f5d515a04a26185752281ac657ed7ae652d35501c23dbd8346bc795a9782444c901ceeb9b8c598f2b430e84fe119ad2bc9f3483b68ba84f1e315642c40d70d69d2add36e9d756bd8adf34d6797fe55eed7546ad27ba05c24e88654e816d63d52cd974099f135245a7b859146e0bcbdf657c1f8653032d35a0828649416093c60541fcf356df3f2c5b6cee672ab513927204089e06580282f2dfdda699224022aa5bddb183a0b853c463a86c671b5ce639eed20500144291c443916525e5412fdf3f64374fdefdfcb7757ad17e8024d276726c3321a59a2f7cbb7bfffb9fc63603deb8595759ca5142948c41ab1ba406991ca9464e917f04892a70546bfea3cf34d9f737e070a6fcd12581132b8f6440763c84bb9f6fcc06677e23319a91bffcc0162cbf61638d09abcf166f7e0064f023776fc5e9d8e9143e8f56bf46ef9bf0a0d94442891a8e540cd9f1c24881f8f6d076fa41e6599ad8d04f411a19feb5419f02d343390bd2b6db6a9386a7f30ee2c8f38f33a8e1eacfea2765468a11728e642f0fb6895f1581993d7f2dc507ae9996a4c49a4aa40c8579e29ed372b64e8dcc8cc606712fa43f2b58030b44fdcc5059af8bb732aaa4aa0294ba90eb8f66032181f98c10dda40055d5c02270c81058fe9f00641a64ae4f78d9c1e62e4f4998c9c1d62e4ec998c0c0f31327c2623e78718397f6223dd3ad894be3deaafd7a52a514dd33cd28d4cad6d0f3b6a1bdae54f54ca27ad835bcab4ebca18559fcca2d8174ca7367a712d8a8812d5a29900f8027aaf1a946c76be2a7b7bc694b1ef8da899d018f0382dcb0a69d33afe5365d23c557ba3adda97db14b08fba7cb00f6dbc469a5d4cfbde5ad6d54d14137aebb5d859b9ec34e4c018751e7739360c365b7e762dcaf454cd4af206ecc1e5505787f1c710bc630c70f3c47da4fb8847c604a4272635e8e0442584508fa8cfa321a14c9536eb9868deb8fd367b9f8bde9094ee5bfee5e35d0af79fac01a779df2b90911339cf9d13fd1da3ef77a78aa6d6bd8287b492953d0374d2fdad4a27402a5cdc396ebb3e359f3567ec96ef26e400c8e62b521912427a0d000000000300000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00",
+        [
+          "0xa11ceb0b060000000b010008020830033853048b0110059b016a078502fd010882044006c2041410d6046d0ac305190cdc059a01000001010102010300040f0000050f0000060f0000070f0000080f00010a05010001010b05010001010c05010001030d070001130401000100090001010c000e0203010f000f0004010c00100506010c00110706010c010900010100010e0a03010001140b0c010001150004010001160d06010001170e0601000218050000011005060100011107060100050806080708080809080a080c080d080105010305060c050808080803030b050109000b060109000b07010900010101060c0003060c0503010900040b050109000b090109000b060109000b0701090005060c0808080802010203060b07010900010b09010900020b09010900060b0501090002050b0901090019637573746f6d5f746f6b656e5f74657374696e675f6e696e6504636f696e067369676e657206737472696e6706546f6b656e3006546f6b656e3106546f6b656e3206546f6b656e3306546f6b656e340762616c616e63650e4275726e4361706162696c69747910467265657a654361706162696c6974790e4d696e744361706162696c69747906537472696e670a696e697469616c697a650d69735f72656769737465726564087265676973746572087472616e736665720b64756d6d795f6669656c6404436f696e046d696e741569735f6163636f756e745f72656769737465726564046275726e076465706f7369740a616464726573735f6f66335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af47100000000000000000000000000000000000000000000000000000000000000010308020000000000000003080100000000000000126170746f733a3a6d657461646174615f76315902010000000000000010455f4e4f545f5245474953544552454400020000000000000016455f494e53554646494349454e545f42414c414e43450000020762616c616e63650101000d69735f72656769737465726564010100000201120101020112010202011201030201120104020112010001000006030b0038000201010000091c0b000b020b0331080838010c080c070c050b040e0838020c060a0138032004150b060e05380405180b010b0638050b050b070b08020201000006030b0038030203010400060b0a00110b38032004080b003806050a0b0001020401040006180a013803040405080b00010701270a00110b38000a0226040f05130b00010700270b000b010b0238070200",
+          "0xa11ceb0b060000000c01000a020a32033c32046e120580015a07da01ff0208d904400699051410ad054c0af905160c8f06da020de908040000010101020103000400050700000608000307070004130f0004140f0004150f0004160f0004170f00011805010001011905010001011a05010001000800010000090201010f000a030400000b0501000212050300040b000c010f011b0f010100011c10010100011d11010100010701080109010a010b050d060d070d080d05060c0508020802030006060c0508020802030708010105010a080001060c01070801010803010804010805010806010807030b080109000b090109000b0a010900010900010800010b08010900010b09010900010b0a01090020746f6b656e5f666163746f72795f67616d6d615f74657374696e675f6e696e6504636f696e067369676e657206737472696e6719637573746f6d5f746f6b656e5f74657374696e675f6e696e6509546f6b656e496e666f0b546f6b656e5265636f726406537472696e670c6372656174655f746f6b656e156465706c6f795f73706563696669635f746f6b656e136765745f6465706c6f7965645f746f6b656e730a696e697469616c697a650d746f6b656e5f61646472657373046e616d650673796d626f6c0763726561746f720f6465706c6f7965645f746f6b656e730d63757272656e745f696e6465780a616464726573735f6f6606546f6b656e3006546f6b656e3106546f6b656e3206546f6b656e3306546f6b656e340e4275726e4361706162696c69747910467265657a654361706162696c6974790e4d696e744361706162696c6974791064657374726f795f6275726e5f6361701264657374726f795f667265657a655f6361701064657374726f795f6d696e745f636170335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af47100000000000000000000000000000000000000000000000000000000000000010308010000000000000003080a00000000000000126170746f733a3a6d657461646174615f76313801010000000000000014455f4d41585f544f4b454e535f52454143484544000001136765745f6465706c6f7965645f746f6b656e730101000002040c050d08020e08020f05010202100a080011030001040101065c0a0011042a010c050a05100014070123040b05110b05010b00010700270a0510001406000000000000000021041f0b000b010b020b030b040b053800055b0a0510001406010000000000000021042d0b000b010b020b030b040b053801055b0a0510001406020000000000000021043b0b000b010b020b030b040b053802055b0a051000140603000000000000002104490b000b010b020b030b040b053803055b0a051000140604000000000000002104570b000b010b020b030b040b053804055b0b05010b000102010000000c200b000a010a020a030b0438050c080c070c060a050f010a010b020b030b011200440e0a05100014060100000000000000160b050f00150b0638060b0738070b083808020201000101010b0a002901200406400e0000000000000000020b002b01100114020301040001060b00400e000000000000000006000000000000000012012d01020101010000"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 2727,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::code::PublishPackage",
+          "data": {
+            "code_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+            "is_upgrade": false
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "11",
+            "io_gas_units": "78",
+            "storage_fee_quants": "263880",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "2727"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 08:58:16.848666032 +00:00)	 Utc: (2024-12-07 08:58:16.848712484 UTC)
+
+CMD:
+Run
+Output:
+Request Error: reqwest::Error { kind: Request, url: Url { scheme: "http", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("localhost")), port: Some(27000), path: "/rpc/v1/transactions/chain_id", query: None, fragment: None }, source: hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111, kind: ConnectionRefused, message: "Connection refused" })) }
+Local: (2024-12-07 08:58:53.510696536 +00:00)	 Utc: (2024-12-07 08:58:53.510739193 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x581416c27e49c448df8bb5d3b516af9061e3ee98992bb59a4b476e4237ff548e1225c02023e2e09885f5f553f719fabbb4def36044a5f6463bc924592434cd03"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x41efc276811493b0cf2cb856d22ca70bfbc4b26ad93c4699fba9f059e1ae2e85",
+    "height": 4536740,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733561931961794,
+      "utc_date_time": "2024-12-07T08:58:51.961794+00:00"
+    }
+  },
+  "hash": "0x27062ba75e53e600eaf9aa49dd65ad2ee6c4c413dcec287a08812f2579523cb1",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733561961000000,
+      "utc_date_time": "2024-12-07T08:59:21+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 114,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine::create_token",
+      "type_arguments": [],
+      "arguments": [
+        "0x8e435e3630c74adae15cca8ad4e0294eb21925ace3785e5e75e7e5c9a1bc749c",
+        "TestToken",
+        "TST",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 4,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "4"
+          }
+        }
+      ],
+      "vm_status": "Execution failed in 0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine::create_token at code offset 2"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 08:59:44.523868385 +00:00)	 Utc: (2024-12-07 08:59:44.523922787 UTC)
+
+CMD:
+Run
+Output:
+General: Message: "{\"message\":\"General err: MoveTransactionValidationFailed(8e435e3630c74adae15cca8ad4e0294eb21925ace3785e5e75e7e5c9a1bc749c, 1, INVALID_AUTH_KEY)\"}", Cause: Err("HTTP status client error (400 Bad Request) for url (https://rpc-testnet.supra.com/rpc/v1/transactions/submit)")
+Local: (2024-12-07 09:00:51.692298830 +00:00)	 Utc: (2024-12-07 09:00:51.692341189 UTC)
+
+CMD:
+Run
+Output:
+General: Message: "{\"message\":\"General err: MoveTransactionValidationFailed(c0921a64b52d22f7ddb4ea710cdb8aab07c9351d9899b56599123626b068964c, 2, INVALID_AUTH_KEY)\"}", Cause: Err("HTTP status client error (400 Bad Request) for url (https://rpc-testnet.supra.com/rpc/v1/transactions/submit)")
+Local: (2024-12-07 09:02:16.449235324 +00:00)	 Utc: (2024-12-07 09:02:16.449279158 UTC)
+
+CMD:
+GenerateProfile(GenerateProfileArgs { name: Some("token_test"), force_pass: false })
+Output:
+-------------------------- Profile List ---------------------------------
+	(*) ETHINDIA
+SmrPublicKey { account_address: "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471", ed25519_public_key: 0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41 }
+	 NEW
+SmrPublicKey { account_address: "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918", ed25519_public_key: 8b655ffe691f4899d9e94403e9764050b5c72d35aee675adc975140df9131278 }
+	 token_test
+SmrPublicKey { account_address: "0x0532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba", ed25519_public_key: 43ffe603b4aa98c611292b66ec4c24c41a57981b306ceb7c6d8f4e44d288c183 }
+-------------------------------------------------------------------------
+
+
+Local: (2024-12-07 09:03:11.936246154 +00:00)	 Utc: (2024-12-07 09:03:11.936298542 UTC)
+
+CMD:
+Run
+Output:
+NotFound: AccountInformation: https://rpc-testnet.supra.com/rpc/v1/accounts/0532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba
+Local: (2024-12-07 09:05:48.975576349 +00:00)	 Utc: (2024-12-07 09:05:48.975620674 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+{
+  "Accepted": "0xa186f076930173aedc120433314508f3968c2ce85635a118214ab790f588d4d3"
+}
+
+
+Local: (2024-12-07 09:06:01.506629950 +00:00)	 Utc: (2024-12-07 09:06:01.506691502 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x43ffe603b4aa98c611292b66ec4c24c41a57981b306ceb7c6d8f4e44d288c183",
+        "signature": "0xc77abadc6d6493816f9ec3533170200f80a5c7e3ecd4c1817ec2c1e7fa8ed60934031ddf05d017308ed1952d321d23e8a8415e5ac311eb52ca87386a47b3300b"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x81a623efd5e2c9228ea1c623635257e9e5dbbb11be4d202b536afce94c35f60a",
+    "height": 4537240,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562360278504,
+      "utc_date_time": "2024-12-07T09:06:00.278504+00:00"
+    }
+  },
+  "hash": "0x4c17dd5c6578adbd4ec320936366452c7989f50e666360c6cb70136519cb6fe2",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562389000000,
+      "utc_date_time": "2024-12-07T09:06:29+00:00"
+    },
+    "sender": {
+      "Move": "0x0532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"
+    },
+    "sequence_number": 0,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::register",
+      "type_arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::Token0"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 4,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "4"
+          }
+        }
+      ],
+      "vm_status": "Move abort in 0x1::coin: ECOIN_INFO_NOT_PUBLISHED(0x10003): `CoinType` hasn't been initialized as a coin"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 09:06:30.371682896 +00:00)	 Utc: (2024-12-07 09:06:30.371727808 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x988ab3680eefaf79d14139c669aa8a488c6ef499188c494901634b4c00734a14acbe5add24e50517af08224557b1bced513e4bc41d7e373090b9ae2a9cb32e07"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x68ee1f64574d8d870c38cf3dfc85327e90069cc7993a04142e1a95caf44d04f1",
+    "height": 4537268,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562386862783,
+      "utc_date_time": "2024-12-07T09:06:26.862783+00:00"
+    }
+  },
+  "hash": "0x32a54dfb8fbc0e1dd4137d3d141fbb9a517509c17ca586acf11f158942d42c80",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562411000000,
+      "utc_date_time": "2024-12-07T09:06:51+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 115,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine::create_token",
+      "type_arguments": [],
+      "arguments": [
+        "0x8e435e3630c74adae15cca8ad4e0294eb21925ace3785e5e75e7e5c9a1bc749c",
+        "TestToken",
+        "TST",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 4,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "4"
+          }
+        }
+      ],
+      "vm_status": "Execution failed in 0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine::create_token at code offset 2"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 09:06:43.730407896 +00:00)	 Utc: (2024-12-07 09:06:43.730472918 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x43ffe603b4aa98c611292b66ec4c24c41a57981b306ceb7c6d8f4e44d288c183",
+        "signature": "0x9f6afcd94e4e32ce7764655f109f6664c27859397c7dc891dbf95ab626dc21f3922696cbd86ceada6608bfc0f5abf149fd3bd500a2f882318b5b0fd944e45303"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x1e575ccc9a3d4f3b365bd92558a352fd2b2d8e2832459e8e0ae81c4e4f2f74e3",
+    "height": 4537292,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562402447281,
+      "utc_date_time": "2024-12-07T09:06:42.447281+00:00"
+    }
+  },
+  "hash": "0x27a93ca796cf0853b88fc2506285b10441ef25271d1f18472ed7c3229e4bf4a8",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562431000000,
+      "utc_date_time": "2024-12-07T09:07:11+00:00"
+    },
+    "sender": {
+      "Move": "0x0532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"
+    },
+    "sequence_number": 1,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::register",
+      "type_arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::Token0"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 4,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "4"
+          }
+        }
+      ],
+      "vm_status": "Move abort in 0x1::coin: ECOIN_INFO_NOT_PUBLISHED(0x10003): `CoinType` hasn't been initialized as a coin"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 09:07:37.141171893 +00:00)	 Utc: (2024-12-07 09:07:37.141229378 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x6abda5a3b34c7fb389739cf515088a9f7c4cadcec723343f0be8d8bbb98698ffc83e9edea0faadbbed35cdeb1c742956c896aea492daab07b1e4909980cdf305"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x804d80e166c46fa379c70fc7b1876416c3524f1713136ecfedcf4c60baaf972c",
+    "height": 4537357,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562455027149,
+      "utc_date_time": "2024-12-07T09:07:35.027149+00:00"
+    }
+  },
+  "hash": "0x5ab690c2744c2551103c4852cb08c6750b0941e3abf99c7007c72ade231f645e",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562483000000,
+      "utc_date_time": "2024-12-07T09:08:03+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 116,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine::initialize",
+      "type_arguments": [],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 452,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "1",
+            "storage_fee_quants": "44800",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "452"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 09:08:03.930163942 +00:00)	 Utc: (2024-12-07 09:08:03.930224693 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x43ffe603b4aa98c611292b66ec4c24c41a57981b306ceb7c6d8f4e44d288c183",
+        "signature": "0x2a84afeec86c065ae67b5d511aceadb0e1ba2bb75758e0d37c19eb9e426bbc603d43f54e743f9b33f0c7cd56404721455b5c87cca7703aa96630b73876de7407"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xc257bdb7a44977bcd51b8bdc86fae9e79d3d5faa8d17bb6bed3637ed31e3a1b9",
+    "height": 4537383,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562481879988,
+      "utc_date_time": "2024-12-07T09:08:01.879988+00:00"
+    }
+  },
+  "hash": "0xe93bf062c44e66dff1d49367799a0eb9e51044dbe4d270c77bce8cfe9987be61",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562510000000,
+      "utc_date_time": "2024-12-07T09:08:30+00:00"
+    },
+    "sender": {
+      "Move": "0x0532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"
+    },
+    "sequence_number": 2,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::register",
+      "type_arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::Token0"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 4,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "4"
+          }
+        }
+      ],
+      "vm_status": "Move abort in 0x1::coin: ECOIN_INFO_NOT_PUBLISHED(0x10003): `CoinType` hasn't been initialized as a coin"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 09:09:09.993584382 +00:00)	 Utc: (2024-12-07 09:09:09.993626586 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x9990643130f016ce8509abc631fbd3a0e67b72104635e903be9c45fb682873e09c57aecabdd931a4583926df67c19faec2c8a342ac4b10e9509fba9f76239b0f"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xc4388f19ea6a56ce0eef49df9fac103678ee34416603a16f444cc4ed08cc44ba",
+    "height": 4537466,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562547036344,
+      "utc_date_time": "2024-12-07T09:09:07.036344+00:00"
+    }
+  },
+  "hash": "0x250fa46b4e53ff921bf7eff50c6efa2bff6359e63306cc685ab6d9fcc8e6eff3",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562574000000,
+      "utc_date_time": "2024-12-07T09:09:34+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 117,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine::create_token",
+      "type_arguments": [],
+      "arguments": [
+        "0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba",
+        "TestToken",
+        "TST",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 518,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "5",
+            "io_gas_units": "4",
+            "storage_fee_quants": "51000",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "518"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 09:09:34.999118955 +00:00)	 Utc: (2024-12-07 09:09:34.999185674 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x43ffe603b4aa98c611292b66ec4c24c41a57981b306ceb7c6d8f4e44d288c183",
+        "signature": "0x1dc2c753e0ee6c0ae021912e80e71c27a68b5f75ea1ec351547c545ff744865c9a4abe62018cf255481df22d46d7c163e99b139dcb639cd77450ec878367cb0d"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xdd1538b10fa8f61c93233d675d5acec9b82e162378efe75c4565841e2ffdee03",
+    "height": 4537501,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562573939013,
+      "utc_date_time": "2024-12-07T09:09:33.939013+00:00"
+    }
+  },
+  "hash": "0xca4be39fa94fb7451ddb5aa2744e26c237de5b4c6ff89872ac06dd20d6a1a9c0",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562602000000,
+      "utc_date_time": "2024-12-07T09:10:02+00:00"
+    },
+    "sender": {
+      "Move": "0x0532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"
+    },
+    "sequence_number": 3,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::register",
+      "type_arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::Token0"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 510,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"
+          },
+          "sequence_number": "1",
+          "type": "0x1::account::CoinRegisterEvent",
+          "data": {
+            "type_info": {
+              "account_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+              "module_name": "0x637573746f6d5f746f6b656e5f74657374696e675f6e696e65",
+              "struct_name": "0x546f6b656e30"
+            }
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "5",
+            "storage_fee_quants": "50120",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "510"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 09:10:43.546461340 +00:00)	 Utc: (2024-12-07 09:10:43.546519696 UTC)
+
+CMD:
+View
+Output:
+{"result":["0"]}
+
+
+Local: (2024-12-07 09:11:32.290092888 +00:00)	 Utc: (2024-12-07 09:11:32.290162299 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0xe41af5e4f70598821f28788b1148ca2e8b98f96c0151f7c3a84fe264611f6d0076658e13558dfbd89bcf706cd1879bcb60981f690cefe54f58514c618305f308"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xd4c41b4283c604c46370a37113427124f2f60cefc8ad36addb667268c855280a",
+    "height": 4537627,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562691129888,
+      "utc_date_time": "2024-12-07T09:11:31.129888+00:00"
+    }
+  },
+  "hash": "0x013a3ed67576eacaceba26cdea74edaca13f512555dbbff654e37b930d2e1c60",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562720000000,
+      "utc_date_time": "2024-12-07T09:12:00+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 118,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine::create_token",
+      "type_arguments": [],
+      "arguments": [
+        "0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba",
+        "TestToken",
+        "TST",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 518,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "5",
+            "io_gas_units": "4",
+            "storage_fee_quants": "51000",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "518"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 09:11:51.312589887 +00:00)	 Utc: (2024-12-07 09:11:51.312645854 UTC)
+
+CMD:
+View
+Output:
+{"result":["0"]}
+
+
+Local: (2024-12-07 09:12:26.808286223 +00:00)	 Utc: (2024-12-07 09:12:26.808341273 UTC)
+
+CMD:
+View
+Output:
+{"result":[[{"creator":"0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba","name":"TestToken","symbol":"TST","token_address":"0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"},{"creator":"0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba","name":"TestToken","symbol":"TST","token_address":"0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"}]]}
+
+
+Local: (2024-12-07 09:13:03.768201505 +00:00)	 Utc: (2024-12-07 09:13:03.768265719 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0xc41a09ff088b6c8f834998796b9af0f2b4bb788251bb7af4226116a9f38c7ca6b11bf5059068a6fd6e0da04b95a6c54772f9d07ee614f6e8f57ed283a1c77502"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x5cd0c9ecebda4e11ceffe8b0879370f85b99b6c9eb0b6bd6d62f4749985f5ecb",
+    "height": 4537731,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562781290514,
+      "utc_date_time": "2024-12-07T09:13:01.290514+00:00"
+    }
+  },
+  "hash": "0xf50f8677ea3d47c7a064e4826ed243222fe91a0ba3dda1d8de67d014a37d80db",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562810000000,
+      "utc_date_time": "2024-12-07T09:13:30+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 119,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine::create_token",
+      "type_arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::Token0"
+      ],
+      "arguments": [
+        "0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba",
+        "TestToken",
+        "TST",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 3,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "0",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "3"
+          }
+        }
+      ],
+      "vm_status": "NUMBER_OF_TYPE_ARGUMENTS_MISMATCH"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 09:13:49.705238935 +00:00)	 Utc: (2024-12-07 09:13:49.705299477 UTC)
+
+CMD:
+View
+Output:
+{"result":[[{"creator":"0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba","name":"TestToken","symbol":"TST","token_address":"0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"},{"creator":"0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba","name":"TestToken","symbol":"TST","token_address":"0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"}]]}
+
+
+Local: (2024-12-07 09:14:42.721396391 +00:00)	 Utc: (2024-12-07 09:14:42.721444833 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x43ffe603b4aa98c611292b66ec4c24c41a57981b306ceb7c6d8f4e44d288c183",
+        "signature": "0x53641fdd4a1fa7b0e97d1fd0dc819d85c141cebcae003076600761022632a76e280d11e3ae9d0019bf36362d7c7de6c3ad87da238d1acf4d848b195c3228e000"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xa2ae0bd5ecc57373faad5c465d13d343a7ca011d469080f0f710aa341da77d9a",
+    "height": 4537839,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562878957989,
+      "utc_date_time": "2024-12-07T09:14:38.957989+00:00"
+    }
+  },
+  "hash": "0xef7e624a83719a5e7758f96d73bba4ff2f85e0d281ad38055fdc7e7682a020c3",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562905000000,
+      "utc_date_time": "2024-12-07T09:15:05+00:00"
+    },
+    "sender": {
+      "Move": "0x0532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"
+    },
+    "sequence_number": 4,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::register",
+      "type_arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_nine::Token1"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 510,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba"
+          },
+          "sequence_number": "2",
+          "type": "0x1::account::CoinRegisterEvent",
+          "data": {
+            "type_info": {
+              "account_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+              "module_name": "0x637573746f6d5f746f6b656e5f74657374696e675f6e696e65",
+              "struct_name": "0x546f6b656e31"
+            }
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "5",
+            "storage_fee_quants": "50120",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "510"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 09:15:43.495699801 +00:00)	 Utc: (2024-12-07 09:15:43.495748898 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0xfe95b0b4180e8addf501c58bee485d408e695f6c2d927e65db53453893f3441a2731d86e2fdea9c651f19c596c15a7f6e2f090914ad7950a596a405842395a07"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x55032ec53673e03f28a23437342ca34a2bf917d44ce2d3766b7ab9a6900f94de",
+    "height": 4537899,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733562939594886,
+      "utc_date_time": "2024-12-07T09:15:39.594886+00:00"
+    }
+  },
+  "hash": "0x4d3263291b2cb71fe38cfa13c64c330a59cd9f527c9b559e21af3df5d82d0a0b",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733562966000000,
+      "utc_date_time": "2024-12-07T09:16:06+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 120,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_nine::create_token",
+      "type_arguments": [],
+      "arguments": [
+        "0x532cd5e4654dfb79608b888ebf6ce662271e1d7e33421032876a4bf704350ba",
+        "TestToken2",
+        "TST2",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 520,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "5",
+            "io_gas_units": "4",
+            "storage_fee_quants": "51160",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "520"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 09:16:03.706350482 +00:00)	 Utc: (2024-12-07 09:16:03.706437977 UTC)
+
+CMD:
+View
+Output:
+{"result":["0"]}
+
+
+Local: (2024-12-07 09:32:04.089107321 +00:00)	 Utc: (2024-12-07 09:32:04.089154625 UTC)
+
+CMD:
+View
+Output:
+{"result":["0"]}
+
+
+Local: (2024-12-07 09:33:02.398969212 +00:00)	 Utc: (2024-12-07 09:33:02.399018414 UTC)
+
+CMD:
+Init
+Output:
+{
+  "Result": "Success"
+}
+
+
+Local: (2024-12-07 09:38:58.371211230 +00:00)	 Utc: (2024-12-07 09:38:58.371284838 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2024-12-07 09:40:16.919315704 +00:00)	 Utc: (2024-12-07 09:40:16.919366089 UTC)
+
+CMD:
+Compile
+Output:
+{
+  "Result": [
+    "335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_ten",
+    "335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_ten"
+  ]
+}
+
+
+Local: (2024-12-07 09:44:43.039689685 +00:00)	 Utc: (2024-12-07 09:44:43.039758903 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x8b655ffe691f4899d9e94403e9764050b5c72d35aee675adc975140df9131278",
+        "signature": "0x2d6fb3471c1fcf834cfd0be29e5176c41e9c54bfe44b4dd4b1a1b0bc6abb3409c1d1fc5bdc71fc283e579f509aafa2f98a26551cf4ac792e0912f7fbb5fca807"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x6b723dc68fb3b85bcecf0304cff386aee925cf39b88518ae9e4ad19a7e9d2c8d",
+    "height": 4539906,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733564679647057,
+      "utc_date_time": "2024-12-07T09:44:39.647057+00:00"
+    }
+  },
+  "hash": "0x02d8c898c472daef53bf77e93504939e879aa0049c63caa044dc2099e2a26742",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733564703000000,
+      "utc_date_time": "2024-12-07T09:45:03+00:00"
+    },
+    "sender": {
+      "Move": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"
+    },
+    "sequence_number": 4,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x0a666163746f72795f3131010000000000000000403043393646394438423842424531314344454230383730383239334532333130323930313138433534373446334441363933303439453431373644453942443683021f8b08000000000002ff4d8fcb6ec3201045f77c85c5de260e711c57caa28be607bab4ac6a8021b65203e2e1367f5f50da2acb7b7547e7cce840dee08a1331b06275aea80619adbf7fb42d251bfab05853eab6d9353b4a20c5d9fa909b71226404a53c86806122f80dabfbc4d747539d29e79d06d41c7837f0bd3c71d1c15ef752eb0e15620f83d6fc24a4e8640beaa864db1ff1c051a801f4a1cff80c50b8d54f905238340a8d5c3034efc979b8f86cfe65fd6d22d72516d73946175e18cb714ea29176656f267aebeef5c526a320e6a718b868432dadc7260f29f1b895e34ca42424a1165fe263b5da0d99fe03b150b8f57fa6bfa2cf6e13f90105f43bae5b0100000218637573746f6d5f746f6b656e5f74657374696e675f74656ef9051f8b08000000000002ff95545d6fda30147d9fb4ffe0695245b4482da494d65d915a4627a48d49943d4d53e43837d422b123db19a355fffb6c124842c268f3e2e47ee5dc73ae6f22c22c0674f6d7f3fa1181c8235effcaebd14b2fe8935e34a051d487106040aea2c8bb0c68d0a75d125e84b43bb880730f82f08a44e7832ec634535a24be164be0be06a5195f9893a3e7f7ef907932054865a9247e2449022b21972649307e5df1eb1063a5a549c5f8617336bc6cc1411a6b6e37c119d5686eff7a861e89424b58bbc62c24b8888ad47c8452a4e8f9a599d07d6b42efad09de5b13ce8f25e4295470a5d1d89ffe98fbb3f1d7c9c37c3c1b7fc128bb384737a87b5d8f9a4c1f7ededf4f4693f174eedfdd7ebb9d8ec6dbd8de8ecad3533483053368886682a328e3d4bee4de340b624611702dd7d685e42616e4e70deef93a056c71a34f39f06187502a32ae313ac93573b693601f16a1ce07ab3ec64cf945a8bfad09615975d8c9d33126612841295f44dbda8e532b9af76c6b36c1edf038d7654221c08ed6a249db1ee34c3312b32738d0a039ad34e6b0da0c3b65552a8198885de36ee9e266f231ca27bb6256eb2410718ba340e19b8b93c6eb8d66b9d3c1a893b77a97493e22290958ccf4bad2b05b70712f019ee0bf21df19d7ad01357a63d0a81398dff994a42e8a3675f3f7c414b06f8e99a842d516feaa24558872eb56cbd19e29e767cf78e9da910d81b284c40ac56c09683c1bf5ceea61e6724169a9aa5fefccc2563bf8b6a14e9d7d179decdaac54393c70457bcde01052a1986e1bec6d4eae8c6a877b4c84bda9362ccd25e12a0289564c3f221a039108a4141225e6c76401eac02dd745e2c15b5ea28aa448da665e0b8c8a0e2b5692e4cba19ce8eaa811a540ea0f9d576e082d0c61fbdbb0ca5dbd5e4062c2291cd931b61fb35f86370556f7c0266deadb246db8a9e61a2edca2da366ba7d2c75f7f18ac7e37165103ec9e006265816f1976f2bdfebc0fa9a5e54da2f34a14468236eaf757be01518512081137b11c95d3162881bdfc03304422c9a508000000001f746f6b656e5f666163746f72795f67616d6d615f74657374696e675f74656e89071f8b08000000000002ffbd566d6bdb3010fe3ed87fd0180c9b9a91c449bbaa2f50b6c2ca5e593bd81843c8f22933b52d4f96db66a5ff7db265c7b29aa6f485e643e5ea4ebabbe739dd5d26e22a0534ba08c319a7c0431aceb6c3097b1346333ae15b8cf319c4005b749bf3f04dc4a2191bd3783366e3ad4d988610c5db944fb7c6182b710a39e194292117644eb38c1205a54af2b95e7374f9fc19d2bfaa0454aa18e352492dc2f8b859775c6932cf41babb6750df6eef5685a4844b9ac1b990a7183391e496fc31026355a944464c7c5644185f1e43ca0374524b46ed3a6ed749bb86ed3abd6add327f75f4155346f40d989031fa434b740a8b0ea8fa1743918a05c4c67889910160b739769473b11ff4caac92127245923c860b8caacda9915d3d7f76dd667db8b1a8639310a0588a22404c1403fb26661ac7124a6dbdfdb06ce61a788c0c85d676b9c82291ae103009541b5c5ee578c8445e2af4e9e00739f9f2e1f0f3711305da43e3d18ead70487a15f2edf0e0edfbc3774bd581e6d1e7a393a3838fe4f8fbd7af1f7ff6d775bf9dce72514569c290c64f2e10af7294e4894a689afc038fc6599263f4cae4a46f03948933d0e418956040a7a5b5864a8c212bd4c2f383a1ba43e6a8975ef93b0e6ad77c6f500663c95b017e1bc903786cd121fafd15e9c24a361f51f6b74a34b737819182ea3c69324bf361dcc1b84d0a22b8d76a74b1f60fa7b1ce91f7022e925295bb96957dcfbed7f75d0a3ab25aadb574dd83b2f5b40da86bfe59195a8d8e7975d2f8b5872221a53827f354441af1ac526b62b6eea4650952bdf0ecdb5e0ffc43bbd6530b56be2a7ff9403adcd75cb7b78746feeabc2765012ce10933589a0846fb3d157502066dbe054e7a050344061822487595bfddaff15dfc1a3f9d5f93bbf835793abfc2bbf8153e9d5fd3bbf8357db85f6ea9adabeb1a8b278b4297d1ba896f98c6aad7a6a76e340d76ffc98a71e0f670139bb6a6eb875df7baaafd1805ba3ee84595cc09a37a98e012e01f986fdd1d55fde5ebcb6e9ea7fa9edbc3696366e1e6d4de86dee156cbf5707308552f1bd6b9aece1755f98744949d7a0d6c83d4749a43608d554e863a43940ded3da358e68e7dd78a09c1a5df7d4feb841bcd2465e5ab1eac318e355d52277fc7b2cd53b7675b1f9eea33c23ed7efde7cb2cb1ffbdc32a7dc47faf2d75902e7bf07c351fd70e7a088439be70ea4fe8a19fbd69166d0a1577667dfcd97a5cb57ff0155fa19dc830d000000000300000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00",
+        [
+          "0xa11ceb0b060000000b01000802083003384d0485010e0593015d07f001f70108e7034006a7041410bb046d0aa805190cc1059101000001010102010300040f0000050f0000060f0000070f0000080f00010a05010001010b05010001010c05010001030d070001130401000100090001010c000e0203010f000f0004010c00100506010c00110706010c010900010100010e0a03010001140b0c0100011005060100021505000001160d06010001170004010001110706010005080608070808080a080b080c080105010304060c0808080803030b050109000b060109000b07010900010101060c0003060c0503010900040b050109000b090109000b060109000b0701090005060c0808080802010203060b07010900010b0901090002050b0901090018637573746f6d5f746f6b656e5f74657374696e675f74656e04636f696e067369676e657206737472696e6706546f6b656e3006546f6b656e3106546f6b656e3206546f6b656e3306546f6b656e340762616c616e63650e4275726e4361706162696c69747910467265657a654361706162696c6974790e4d696e744361706162696c69747906537472696e670a696e697469616c697a650d69735f72656769737465726564087265676973746572087472616e736665720b64756d6d795f6669656c6404436f696e046d696e740a616464726573735f6f66076465706f7369741569735f6163636f756e745f72656769737465726564335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af47100000000000000000000000000000000000000000000000000000000000000010308020000000000000003080100000000000000126170746f733a3a6d657461646174615f76315902010000000000000010455f4e4f545f5245474953544552454400020000000000000016455f494e53554646494349454e545f42414c414e43450000020762616c616e63650101000d69735f72656769737465726564010100000201120101020112010202011201030201120104020112010001000006030b003800020101000009170a000b010b0231080838010c070c060c040b030e0738020c050a0038030b0011090b0538040b040b060b07020201000006030b0038050203010400060b0a00110938052004080b003803050a0b0001020401040006180a013805040405080b00010701270a00110938000a0226040f05130b00010700270b000b010b0238060200",
+          "0xa11ceb0b060000000c01000a020a32033c32046e120580016a07ea01fd0208e7044006a7051e10c5054c0a9106160ca706e6020d8d09040000010101020103000400050700000608000307070004130f0004140f0004150f0004160f0004170f00011805010001011905010001011a05010001000800010000090201010f000a030400000b0501000212050300040b000f010f011b10010100011c11010100011d1201010001080109010a010b010c050e060e070e080e04060c08020802030005060c08020802030708010105010a080001060c0205070801010800010803010804010805010806010807040b08010900050b090109000b0a010900010900030b080109000b090109000b0a010900010b08010900010b09010900010b0a0109001f746f6b656e5f666163746f72795f67616d6d615f74657374696e675f74656e04636f696e067369676e657206737472696e6718637573746f6d5f746f6b656e5f74657374696e675f74656e09546f6b656e496e666f0b546f6b656e5265636f726406537472696e670c6372656174655f746f6b656e156465706c6f795f73706563696669635f746f6b656e136765745f6465706c6f7965645f746f6b656e730a696e697469616c697a650d746f6b656e5f61646472657373046e616d650673796d626f6c0763726561746f720f6465706c6f7965645f746f6b656e730d63757272656e745f696e6465780a616464726573735f6f6606546f6b656e3006546f6b656e3106546f6b656e3206546f6b656e3306546f6b656e340e4275726e4361706162696c69747910467265657a654361706162696c6974790e4d696e744361706162696c6974791064657374726f795f6275726e5f6361701264657374726f795f667265657a655f6361701064657374726f795f6d696e745f636170335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471000000000000000000000000000000000000000000000000000000000000000103080100000000000000030800ca9a3b0000000003080a00000000000000126170746f733a3a6d657461646174615f76313801010000000000000014455f4d41585f544f4b454e535f52454143484544000001136765745f6465706c6f7965645f746f6b656e730101000002040c050d08020e08020f05010202100a08001103000104010106620a0011040c040a04290120040c0a004007000000000000000006000000000000000012012d010b042a010c050a051000140702230416051c0b05010b00010700270a051000140600000000000000002104290b000b010b020b030b05380005610a051000140601000000000000002104360b000b010b020b030b05380105610a051000140602000000000000002104430b000b010b020b030b05380205610a051000140603000000000000002104500b000b010b020b030b05380305610a0510001406040000000000000021045d0b000b010b020b030b05380405610b05010b000102010000000d220a0011040c060b000a010a020b0338050c080c070c050a040f010a060b010b020b06120044070a04100014060100000000000000160b040f00150b0538060b0738070b08380802020100010101050b002b01100114020301040001060b004007000000000000000006000000000000000012012d01020101010000"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 75,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "9",
+            "io_gas_units": "67",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "75"
+          }
+        }
+      ],
+      "vm_status": "CONSTRAINT_NOT_SATISFIED"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 09:46:45.827345924 +00:00)	 Utc: (2024-12-07 09:46:45.827418933 UTC)
+
+CMD:
+AccountTool::FundWithFaucet
+Output:
+{
+  "Accepted": "0x7054d12421d745a483363c8b2acf4f74131dec1b4503ea48023ea676c101e3db"
+}
+
+
+Local: (2024-12-07 09:47:11.303417499 +00:00)	 Utc: (2024-12-07 09:47:11.303461288 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x8b655ffe691f4899d9e94403e9764050b5c72d35aee675adc975140df9131278",
+        "signature": "0x7ba459da9ed299f5152ef4ac187eebe2b6f1eeb36f50eb9114773b8eb8a0a306ea2bbe5b4fcd19a0b79ee9c7f4fbf2bf3f134ee001cd34ee39bfbd2ca9fdf206"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x5055871623569124ee1ae6b3ac432f930852a87f0466faddb3ed2f45bd2fed03",
+    "height": 4540068,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733564828010940,
+      "utc_date_time": "2024-12-07T09:47:08.010940+00:00"
+    }
+  },
+  "hash": "0xab253af0a297fd21f06330a0de1ffaa15ef3139004e785734a1940045e92d783",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733564853000000,
+      "utc_date_time": "2024-12-07T09:47:33+00:00"
+    },
+    "sender": {
+      "Move": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"
+    },
+    "sequence_number": 5,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x0a666163746f72795f3131010000000000000000403043393646394438423842424531314344454230383730383239334532333130323930313138433534373446334441363933303439453431373644453942443683021f8b08000000000002ff4d8fcb6ec3201045f77c85c5de260e711c57caa28be607bab4ac6a8021b65203e2e1367f5f50da2acb7b7547e7cce840dee08a1331b06275aea80619adbf7fb42d251bfab05853eab6d9353b4a20c5d9fa909b71226404a53c86806122f80dabfbc4d747539d29e79d06d41c7837f0bd3c71d1c15ef752eb0e15620f83d6fc24a4e8640beaa864db1ff1c051a801f4a1cff80c50b8d54f905238340a8d5c3034efc979b8f86cfe65fd6d22d72516d73946175e18cb714ea29176656f267aebeef5c526a320e6a718b868432dadc7260f29f1b895e34ca42424a1165fe263b5da0d99fe03b150b8f57fa6bfa2cf6e13f90105f43bae5b0100000218637573746f6d5f746f6b656e5f74657374696e675f74656ef9051f8b08000000000002ff95545d6fda30147d9fb4ffe0695245b4482da494d65d915a4627a48d49943d4d53e43837d422b123db19a355fffb6c124842c268f3e2e47ee5dc73ae6f22c22c0674f6d7f3fa1181c8235effcaebd14b2fe8935e34a051d487106040aea2c8bb0c68d0a75d125e84b43bb880730f82f08a44e7832ec634535a24be164be0be06a5195f9893a3e7f7ef907932054865a9247e2449022b21972649307e5df1eb1063a5a549c5f8617336bc6cc1411a6b6e37c119d5686eff7a861e89424b58bbc62c24b8888ad47c8452a4e8f9a599d07d6b42efad09de5b13ce8f25e4295470a5d1d89ffe98fbb3f1d7c9c37c3c1b7fc128bb384737a87b5d8f9a4c1f7ededf4f4693f174eedfdd7ebb9d8ec6dbd8de8ecad3533483053368886682a328e3d4bee4de340b624611702dd7d685e42616e4e70deef93a056c71a34f39f06187502a32ae313ac93573b693601f16a1ce07ab3ec64cf945a8bfad09615975d8c9d33126612841295f44dbda8e532b9af76c6b36c1edf038d7654221c08ed6a249db1ee34c3312b32738d0a039ad34e6b0da0c3b65552a8198885de36ee9e266f231ca27bb6256eb2410718ba340e19b8b93c6eb8d66b9d3c1a893b77a97493e22290958ccf4bad2b05b70712f019ee0bf21df19d7ad01357a63d0a81398dff994a42e8a3675f3f7c414b06f8e99a842d516feaa24558872eb56cbd19e29e767cf78e9da910d81b284c40ac56c09683c1bf5ceea61e6724169a9aa5fefccc2563bf8b6a14e9d7d179decdaac54393c70457bcde01052a1986e1bec6d4eae8c6a877b4c84bda9362ccd25e12a0289564c3f221a039108a4141225e6c76401eac02dd745e2c15b5ea28aa448da665e0b8c8a0e2b5692e4cba19ce8eaa811a540ea0f9d576e082d0c61fbdbb0ca5dbd5e4062c2291cd931b61fb35f86370556f7c0266deadb246db8a9e61a2edca2da366ba7d2c75f7f18ac7e37165103ec9e006265816f1976f2bdfebc0fa9a5e54da2f34a14468236eaf757be01518512081137b11c95d3162881bdfc03304422c9a508000000001f746f6b656e5f666163746f72795f67616d6d615f74657374696e675f74656e89071f8b08000000000002ffbd566d6bdb3010fe3ed87fd0180c9b9a91c449bbaa2f50b6c2ca5e593bd81843c8f22933b52d4f96db66a5ff7db265c7b29aa6f485e643e5ea4ebabbe739dd5d26e22a0534ba08c319a7c0431aceb6c3097b1346333ae15b8cf319c4005b749bf3f04dc4a2191bd3783366e3ad4d988610c5db944fb7c6182b710a39e194292117644eb38c1205a54af2b95e7374f9fc19d2bfaa0454aa18e352492dc2f8b859775c6932cf41babb6750df6eef5685a4844b9ac1b990a7183391e496fc31026355a944464c7c5644185f1e43ca0374524b46ed3a6ed749bb86ed3abd6add327f75f4155346f40d989031fa434b740a8b0ea8fa1743918a05c4c67889910160b739769473b11ff4caac92127245923c860b8caacda9915d3d7f76dd667db8b1a8639310a0588a22404c1403fb26661ac7124a6dbdfdb06ce61a788c0c85d676b9c82291ae103009541b5c5ee578c8445e2af4e9e00739f9f2e1f0f3711305da43e3d18ead70487a15f2edf0e0edfbc3774bd581e6d1e7a393a3838fe4f8fbd7af1f7ff6d775bf9dce72514569c290c64f2e10af7294e4894a689afc038fc6599263f4cae4a46f03948933d0e418956040a7a5b5864a8c212bd4c2f383a1ba43e6a8975ef93b0e6ad77c6f500663c95b017e1bc903786cd121fafd15e9c24a361f51f6b74a34b737819182ea3c69324bf361dcc1b84d0a22b8d76a74b1f60fa7b1ce91f7022e925295bb96957dcfbed7f75d0a3ab25aadb574dd83b2f5b40da86bfe59195a8d8e7975d2f8b5872221a53827f354441af1ac526b62b6eea4650952bdf0ecdb5e0ffc43bbd6530b56be2a7ff9403adcd75cb7b78746feeabc2765012ce10933589a0846fb3d157502066dbe054e7a050344061822487595bfddaff15dfc1a3f9d5f93bbf835793abfc2bbf8153e9d5fd3bbf8357db85f6ea9adabeb1a8b278b4297d1ba896f98c6aad7a6a76e340d76ffc98a71e0f670139bb6a6eb875df7baaafd1805ba3ee84595cc09a37a98e012e01f986fdd1d55fde5ebcb6e9ea7fa9edbc3696366e1e6d4de86dee156cbf5707308552f1bd6b9aece1755f98744949d7a0d6c83d4749a43608d554e863a43940ded3da358e68e7dd78a09c1a5df7d4feb841bcd2465e5ab1eac318e355d52277fc7b2cd53b7675b1f9eea33c23ed7efde7cb2cb1ffbdc32a7dc47faf2d75902e7bf07c351fd70e7a088439be70ea4fe8a19fbd69166d0a1577667dfcd97a5cb57ff0155fa19dc830d000000000300000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00",
+        [
+          "0xa11ceb0b060000000b01000802083003384d0485010e0593015d07f001f70108e7034006a7041410bb046d0aa805190cc1059101000001010102010300040f0000050f0000060f0000070f0000080f00010a05010001010b05010001010c05010001030d070001130401000100090001010c000e0203010f000f0004010c00100506010c00110706010c010900010100010e0a03010001140b0c0100011005060100021505000001160d06010001170004010001110706010005080608070808080a080b080c080105010304060c0808080803030b050109000b060109000b07010900010101060c0003060c0503010900040b050109000b090109000b060109000b0701090005060c0808080802010203060b07010900010b0901090002050b0901090018637573746f6d5f746f6b656e5f74657374696e675f74656e04636f696e067369676e657206737472696e6706546f6b656e3006546f6b656e3106546f6b656e3206546f6b656e3306546f6b656e340762616c616e63650e4275726e4361706162696c69747910467265657a654361706162696c6974790e4d696e744361706162696c69747906537472696e670a696e697469616c697a650d69735f72656769737465726564087265676973746572087472616e736665720b64756d6d795f6669656c6404436f696e046d696e740a616464726573735f6f66076465706f7369741569735f6163636f756e745f72656769737465726564335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af47100000000000000000000000000000000000000000000000000000000000000010308020000000000000003080100000000000000126170746f733a3a6d657461646174615f76315902010000000000000010455f4e4f545f5245474953544552454400020000000000000016455f494e53554646494349454e545f42414c414e43450000020762616c616e63650101000d69735f72656769737465726564010100000201120101020112010202011201030201120104020112010001000006030b003800020101000009170a000b010b0231080838010c070c060c040b030e0738020c050a0038030b0011090b0538040b040b060b07020201000006030b0038050203010400060b0a00110938052004080b003803050a0b0001020401040006180a013805040405080b00010701270a00110938000a0226040f05130b00010700270b000b010b0238060200",
+          "0xa11ceb0b060000000c01000a020a32033c32046e120580016a07ea01fd0208e7044006a7051e10c5054c0a9106160ca706e6020d8d09040000010101020103000400050700000608000307070004130f0004140f0004150f0004160f0004170f00011805010001011905010001011a05010001000800010000090201010f000a030400000b0501000212050300040b000f010f011b10010100011c11010100011d1201010001080109010a010b010c050e060e070e080e04060c08020802030005060c08020802030708010105010a080001060c0205070801010800010803010804010805010806010807040b08010900050b090109000b0a010900010900030b080109000b090109000b0a010900010b08010900010b09010900010b0a0109001f746f6b656e5f666163746f72795f67616d6d615f74657374696e675f74656e04636f696e067369676e657206737472696e6718637573746f6d5f746f6b656e5f74657374696e675f74656e09546f6b656e496e666f0b546f6b656e5265636f726406537472696e670c6372656174655f746f6b656e156465706c6f795f73706563696669635f746f6b656e136765745f6465706c6f7965645f746f6b656e730a696e697469616c697a650d746f6b656e5f61646472657373046e616d650673796d626f6c0763726561746f720f6465706c6f7965645f746f6b656e730d63757272656e745f696e6465780a616464726573735f6f6606546f6b656e3006546f6b656e3106546f6b656e3206546f6b656e3306546f6b656e340e4275726e4361706162696c69747910467265657a654361706162696c6974790e4d696e744361706162696c6974791064657374726f795f6275726e5f6361701264657374726f795f667265657a655f6361701064657374726f795f6d696e745f636170335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471000000000000000000000000000000000000000000000000000000000000000103080100000000000000030800ca9a3b0000000003080a00000000000000126170746f733a3a6d657461646174615f76313801010000000000000014455f4d41585f544f4b454e535f52454143484544000001136765745f6465706c6f7965645f746f6b656e730101000002040c050d08020e08020f05010202100a08001103000104010106620a0011040c040a04290120040c0a004007000000000000000006000000000000000012012d010b042a010c050a051000140702230416051c0b05010b00010700270a051000140600000000000000002104290b000b010b020b030b05380005610a051000140601000000000000002104360b000b010b020b030b05380105610a051000140602000000000000002104430b000b010b020b030b05380205610a051000140603000000000000002104500b000b010b020b030b05380305610a0510001406040000000000000021045d0b000b010b020b030b05380405610b05010b000102010000000d220a0011040c060b000a010a020b0338050c080c070c050a040f010a060b010b020b06120044070a04100014060100000000000000160b040f00150b0538060b0738070b08380802020100010101050b002b01100114020301040001060b004007000000000000000006000000000000000012012d01020101010000"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 75,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "9",
+            "io_gas_units": "67",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "75"
+          }
+        }
+      ],
+      "vm_status": "CONSTRAINT_NOT_SATISFIED"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 09:55:51.964088392 +00:00)	 Utc: (2024-12-07 09:55:51.964291114 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2024-12-07 09:56:44.751882999 +00:00)	 Utc: (2024-12-07 09:56:44.751950086 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2024-12-07 09:57:46.829937192 +00:00)	 Utc: (2024-12-07 09:57:46.829998937 UTC)
+
+CMD:
+Compile
+Output:
+General: {
+  "Error": "Move compilation failed: Compilation error"
+}
+Local: (2024-12-07 09:58:09.137855179 +00:00)	 Utc: (2024-12-07 09:58:09.137920503 UTC)
+
+CMD:
+Compile
+Output:
+{
+  "Result": [
+    "335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven",
+    "335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_eleven"
+  ]
+}
+
+
+Local: (2024-12-07 09:58:37.680886695 +00:00)	 Utc: (2024-12-07 09:58:37.680935280 UTC)
+
+CMD:
+Publish
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0xfc523751ca83eca7ac57e7e4fed64ed5f0a6a9a56a34d018d61451ab0e34da9c74af4cff81c1ddb9c76cf8f8f13ce79062667c8f988d5fd2c6df4ff7e6108b0a"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x3b38c6085a6e47e111e622fdb764fb851eccf90580e1ebaddcf7d9876aee8bab",
+    "height": 4540882,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733565516240883,
+      "utc_date_time": "2024-12-07T09:58:36.240883+00:00"
+    }
+  },
+  "hash": "0x5ebd5cd927ea38996cd56099edc005d84beb67b3e98e8ee92c1c100526720f1a",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733565545000000,
+      "utc_date_time": "2024-12-07T09:59:05+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 121,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x1::code::publish_package_txn",
+      "type_arguments": [],
+      "arguments": [
+        "0x0a666163746f72795f3131010000000000000000403443384538384542304139383146324138364143323630334642463431364138393446374443383341353738414438314534383935314332463238334335433583021f8b08000000000002ff4d8fcb6ec3201045f77c85c5de260e711c57caa28be607bab4ac6a8021b65203e2e1367f5f50da2acb7b7547e7cce840dee08a1331b06275aea80619adbf7fb42d251bfab05853eab6d9353b4a20c5d9fa909b71226404a53c86806122f80dabfbc4d747539d29e79d06d41c7837f0bd3c71d1c15ef752eb0e15620f83d6fc24a4e8640beaa864db1ff1c051a801f4a1cff80c50b8d54f905238340a8d5c3034efc979b8f86cfe65fd6d22d72516d73946175e18cb714ea29176656f267aebeef5c526a320e6a718b868432dadc7260f29f1b895e34ca42424a1165fe263b5da0d99fe03b150b8f57fa6bfa2cf6e13f90105f43bae5b010000021b637573746f6d5f746f6b656e5f74657374696e675f656c6576656eac061f8b08000000000002ffa5556d4fdb3010fe3e89ff603409b55a2468d35208a312b03255da3a09ba4fd31439c99945a471143b7405f1df77ae93c67929a55abe2439df9def79eef1f9e0c382075904e4e4af6d0f190566537b786ef7fd33db1bd23e1bf98c0d210018d173c6ec33cff7867e8f06a781df1b9dc2c0062f38a76c30ea398e9f09c917aee48f10bb12840ce3071722788298bc1c7c20f8640288c89294ba2ca50b58f2f411e378185f18eb32701c21538c769cfbf5bbb11a3ec490a255dbd139f32599ab8d4fc81f2ac823ac2c34f3142ce2f3047f829427e4e5b519d0db37a0bf6f80bd6fc06057800ef1792c2499b8b31f73f76ef2757a3f9fdc4dbe38243b1d904bd2bba87a4d67f73f6f6fa737d3c96cee5e5f7dbb9add4c0adffe86ca24f3a2d0272c8b49188732a451f80c9fd755cd570938aa2af24997856f5517be5461e38ecea01e467d745839e44877ca2a97b43af812ad0ea141908210c6728caa7088eeba6116ab85c7a39685bc4817459544ab351ebdd875484709cb71aeb334bea109f5c22894ab12cb58d1aa1c6e53806778d3e57b18cb56876ea16cf5442049c7c3ed5c9f261661ebbcfa7b8109d45717d9d629dbe835393478b4aa56c551cda4f9a919cf6affa830282ddd8bf2bbfc3a3e2677f0100a0929613c2d2a202c4c85346867a47398e3102ef57d9e21be348f84c084a425e03879b35dce3a79d66eb7429f56abca592432d3143146d9afdb20a876ad5309d4db360caa5bdaa768896a52a7aa288b1c6d5a67eca6fd0348b808e55b08b580c456b2677c897da1b1604838d66a1c0f457210325c0044c352be289054fbf0c6eee4f0d2ccd8607b9f369a791a89f66e5dbd7d6582828d96049609c6aa9dfdddc2d87534b5e76b6d1422f94a3b38109bd02ae370dcc909dc8cbd0a4dff7964f280bd8e4c116332b30b6493fe1a4863caa324db477cdb64a70bcd4d39a14d20540848e561e7dd62c49355bff94c9cd57c1e8d68ecc3aea9847890def1655eabb5e5d66c0e8256cd623625582bcf56446da8fff8eb2984e5efc6bddb28b6d680eaddd9d577f84bbda416c8faecbeb30a6c411bf575c5631166291ee751b3969ded5409cac2d6b5fd03fbeb88df9a0a0000000022746f6b656e5f666163746f72795f67616d6d615f74657374696e675f656c6576656e98071f8b08000000000002ffcd56516be338107e5fd8ffa0e5e0b0a939923869b74a5b2877850b77d7856d1e8e3b1621cbe3aca96d7965b96db6e4bfaf6c39b6a46453ca16ba79888c66a499f9e6d3cce43cae3340a387309c2514929086b3d370c2de87d18c4e921396243388014ee8699284ef2316cdd898c6c7311b9f1cc33484283ea5c9f4648cb1e4b750908432c9c59aac689e5322a19269b12290c11d14e8f1ed1ba47e7505a89231c695144a8af14dbbce5d69ba2a40b8bb77d0183077eb525092089ac33d17b718339e1686fc2562637525794e74887650183fde40960468d90847dd3aeed649b786dd3add749ee97f0540cda4167d04c6458c3ed30addc27a8b55f38ba1ccf81a626dbfc2486370d61e5b1409bf080665560b0185246911c30346f5f154cb366fdfecda6c0eb71655780202140b5e0688f1d2b2afc3a6712ca052d6bb0fc366a1b0c74867d1d8aed679c4b33d0226802a83fd558e878c179544ff5cfe4b961ffebababe69a340e7683c9a9b0a576450211faf2e7ffff3ea8f5ed5d1bcfeb0248bebc57271f9f7e2bf416d32dfda2ceb284b1952c889354aea02a5452a539aa55fc1a3719e1618fdaa09e99bd0a409f2dec1435ac9eaccc8e285a77531ee22243cd1d7f8be75bef9e5fc0e546ab53cb0c8e0681e2003c6909772edf9c1ee118712235b63e3cf878d8d938a1d58dad48136ee0de7ba67df8314b8ece1f70d1c2fc09d2e2f443dfb325b1b04f711655fea545dff3d0833905b475b362b02ec4953a761a242ab0a847ce7ed4bb479a11fec52cdbcc776450323b49be728e242f07bb2ca78a4c2cb6b79c0ce1edfccdb7eb3328ece8cb714ec7d367eff0eb6a43e70ddf9391aed9058d3925425b034499926888e60d43b1f986408dad4075da60327b181058f455104992aeb4f3b397e8e93e3577272f21c2727afe464f81c27c3577272fa1c27a72fece4dca99b4da93c607eb92e55d16bdafc916ebd6a6dbbee51db822f7e96caba634c87ae9c51f5c92cb3db12ec545b2faa4541185543452200be82fe567d4e365fbe2a7b0747aba1090fb899e01800397dcf4caa2d69336c6f75e9b6376d3806995d2bb7ddb7acabcf24a2ecd66ba1b1a8eab4ecc098bd1ef779dd4f5a3f1e443f69195719b435397ce8751d121eb5c39631dca9f11be358655228f66f09d033c13469ab0e0cf186cfefab6f49e4f56c721fe12fffdfa570ffc99a649a87b902499c9c78ee48eaef99b29f1c300ecd099d81a746046b0ad87f83cba73eeacd37c02e8614ce0d000000000300000000000000000000000000000000000000000000000000000000000000010b4170746f735374646c696200000000000000000000000000000000000000000000000000000000000000010a4d6f76655374646c696200000000000000000000000000000000000000000000000000000000000000010e53757072614672616d65776f726b00",
+        [
+          "0xa11ceb0b060000000b01000802083003384d0485010e0593015e07f101fa0108eb034006ab041410bf046d0aac05190cc505bb01000001010102010300040f0000050f0000060f0000070f0000080f00010a05010001010b05010001010c05010001030d070001130401000100090001010c000e0203010f000f0004010c00100506010c00110706010c010900010100010e0a030100021405000001150004010001100506010001160b0c010001170d06010001110706010005080608080809080a080b080c080105010305060c050808080803030b050109000b060109000b07010900010101060c0003060c0503010900040b050109000b090109000b060109000b0701090005060c0808080802010203060b07010900010b0901090002050b090109001b637573746f6d5f746f6b656e5f74657374696e675f656c6576656e04636f696e067369676e657206737472696e6706546f6b656e3006546f6b656e3106546f6b656e3206546f6b656e3306546f6b656e340762616c616e63650e4275726e4361706162696c69747910467265657a654361706162696c6974790e4d696e744361706162696c69747906537472696e670a696e697469616c697a650d69735f72656769737465726564087265676973746572087472616e736665720b64756d6d795f6669656c6404436f696e0a616464726573735f6f661569735f6163636f756e745f72656769737465726564046d696e74076465706f736974335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af47100000000000000000000000000000000000000000000000000000000000000010308020000000000000003080100000000000000126170746f733a3a6d657461646174615f76315902010000000000000010455f4e4f545f5245474953544552454400020000000000000016455f494e53554646494349454e545f42414c414e43450000020762616c616e63650101000d69735f72656769737465726564010100000201120101020112010202011201030201120104020112010001000006030b0038000201010000092e0a000b020b0331080838010c080c070c050a00110738022004100a0038030a040e0838040c060a0011070b0638050a0011070a012204280a0138022004230a0038030b000b010b043806052a0b00010b050b070b08020201000006030b0038020203010400060b0a00110738022004080b003803050a0b0001020401040006180a013802040405080b00010701270a00110738000a0226040f05130b00010700270b000b010b0238060200",
+          "0xa11ceb0b060000000c01000a020a32033c32046e120580015b07db01830308de0440069e051e10bc05670aa306160cb906f3020dac09040000010101020103000400050700000608000307070004130f0004140f0004150f0004160f0004170f00011805010001011905010001011a05010001000800010000090201010f000a030400000b0501000212050300040b000c010f011b0f010100011c10010100011d11010100010701080109010a010b050d060d070d080d05060c0508020802030006060c0508020802030708010105010a080001060c0205070801010803010804010805010806010807030b080109000b090109000b0a010900010900010800010b08010900010b09010900010b0a01090022746f6b656e5f666163746f72795f67616d6d615f74657374696e675f656c6576656e04636f696e067369676e657206737472696e671b637573746f6d5f746f6b656e5f74657374696e675f656c6576656e09546f6b656e496e666f0b546f6b656e5265636f726406537472696e670c6372656174655f746f6b656e156465706c6f795f73706563696669635f746f6b656e136765745f6465706c6f7965645f746f6b656e730a696e697469616c697a650d746f6b656e5f61646472657373046e616d650673796d626f6c0763726561746f720f6465706c6f7965645f746f6b656e730d63757272656e745f696e6465780a616464726573735f6f6606546f6b656e3006546f6b656e3106546f6b656e3206546f6b656e3306546f6b656e340e4275726e4361706162696c69747910467265657a654361706162696c6974790e4d696e744361706162696c6974791064657374726f795f6275726e5f6361701264657374726f795f667265657a655f6361701064657374726f795f6d696e745f636170335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af4710000000000000000000000000000000000000000000000000000000000000001030801000000000000000308020000000000000003080a00000000000000126170746f733a3a6d657461646174615f76315302010000000000000014455f4d41585f544f4b454e535f5245414348454400020000000000000011455f4e4f545f494e495449414c495a4544000001136765745f6465706c6f7965645f746f6b656e730101000002040c050d08020e08020f05010202100a08001103000104010106660a0011040c050a0529010407050b0b00010701270b052a010c060a061000140702230415051b0b06010b00010700270a061000140600000000000000002104290b000b010b020b030b040b06380005650a061000140601000000000000002104370b000b010b020b030b040b06380105650a061000140602000000000000002104450b000b010b020b030b040b06380205650a061000140603000000000000002104530b000b010b020b030b040b06380305650a061000140604000000000000002104610b000b010b020b030b040b06380405650b06010b000102010000000c200b000a010a020a030b0438050c080c070c060a050f010a010b020b030b011200440e0a05100014060100000000000000160b050f00150b0638060b0738070b083808020201000101010b0a002901040405060701270b002b011001140203010400010e0a001104290120040b0b00400e000000000000000006000000000000000012012d01050d0b0001020101010000"
+        ]
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 2763,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::code::PublishPackage",
+          "data": {
+            "code_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+            "is_upgrade": false
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "11",
+            "io_gas_units": "79",
+            "storage_fee_quants": "267360",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "2763"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 10:01:05.114505766 +00:00)	 Utc: (2024-12-07 10:01:05.114547851 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x8b655ffe691f4899d9e94403e9764050b5c72d35aee675adc975140df9131278",
+        "signature": "0xdf27043f6dfc2d319c8e7f19ce2defec56dd47aac4a55c1386be080506927e8bf1217a61bae30299cb50394e993b909460ce89ea3a743bc9f1b96bd164ca4e0d"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x53984d3b5de3289cbce46cf328c58258f9d0a28d54ba68e1d80973f69cda2c0a",
+    "height": 4541054,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733565664131578,
+      "utc_date_time": "2024-12-07T10:01:04.131578+00:00"
+    }
+  },
+  "hash": "0x1b5ae99496fc3a862a1425b7b86aa1dfcd8641ff1afbbf51b76c626395e2dede",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733565692000000,
+      "utc_date_time": "2024-12-07T10:01:32+00:00"
+    },
+    "sender": {
+      "Move": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"
+    },
+    "sequence_number": 6,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918::token_factory_gamma_testing_eleven::initialize",
+      "type_arguments": [],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 3,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "0",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "3"
+          }
+        }
+      ],
+      "vm_status": "LINKER_ERROR"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 10:01:27.810026500 +00:00)	 Utc: (2024-12-07 10:01:27.810102467 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x804b77526c8a79c65df086abb4dbce4de871d53d3514517c9a8dcd353587ed25ba82927bac3c8599e2441ea5a0060ebe9611d5e297d2ef69754e0e92b69a330b"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x43d9a9f4e2bc17ddd951ce2f80574b653f377c84b3227bab8f14091b28d8e759",
+    "height": 4541084,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733565684157409,
+      "utc_date_time": "2024-12-07T10:01:24.157409+00:00"
+    }
+  },
+  "hash": "0x8329b82485ef7a6a91aa1b6dacafd6ba7ab3a0653bd4f24f7fe5a0ba90a767af",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733565711000000,
+      "utc_date_time": "2024-12-07T10:01:51+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 122,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918::token_factory_gamma_testing_eleven::initialize",
+      "type_arguments": [],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 3,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "0",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "3"
+          }
+        }
+      ],
+      "vm_status": "LINKER_ERROR"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 10:02:36.537293407 +00:00)	 Utc: (2024-12-07 10:02:36.537354167 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x7eba29833f9cf909021504d219e38ce2c3848ae1b9732927efc97532b9f3977a0efb1eb054ad5168c35df393923eb434f51b7f8a586acff59a04446cfb93f20a"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x689da8e038898d58ab952df6ca515c48ec936eb58f654839fa7ba9338a0ad29d",
+    "height": 4541167,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733565753613761,
+      "utc_date_time": "2024-12-07T10:02:33.613761+00:00"
+    }
+  },
+  "hash": "0x0aba62287e376923a2a29405203852b7770b8a917cecef68ffc9328151a9dd4b",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733565776000000,
+      "utc_date_time": "2024-12-07T10:02:56+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 123,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_eleven::initialize",
+      "type_arguments": [],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 453,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "1",
+            "storage_fee_quants": "44880",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "453"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 10:08:42.240003031 +00:00)	 Utc: (2024-12-07 10:08:42.240055802 UTC)
+
+CMD:
+Run
+Output:
+Request Error: reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("rpc-testnet.supra.com")), port: None, path: "/rpc/v1/transactions/chain_id", query: None, fragment: None }, source: hyper::Error(Connect, ConnectError("dns error", Custom { kind: Uncategorized, error: "failed to lookup address information: Temporary failure in name resolution" })) }
+Local: (2024-12-07 10:09:01.010829416 +00:00)	 Utc: (2024-12-07 10:09:01.010901239 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x706b7e96070636fe7ba2a2c0f477e801e93647375983b1a109f02856b7593f91ffb7d6cc85ce37c51d30310dbb3e6bd14291ad6a17eea901eaf7b808cc63a608"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x1f6aed7f002c2b62cb8c9c794a1c6ef8f110d0c88d9717d2fba53ef8751b15f9",
+    "height": 4541625,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733566139523912,
+      "utc_date_time": "2024-12-07T10:08:59.523912+00:00"
+    }
+  },
+  "hash": "0x9a95028b1915f6947e51314719f787c71434533a5ff4ba1ba53cfd741352336a",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733566168000000,
+      "utc_date_time": "2024-12-07T10:09:28+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 124,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_eleven::create_token",
+      "type_arguments": [],
+      "arguments": [
+        "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918",
+        "IndiaToken",
+        "IND",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 11,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "6",
+            "io_gas_units": "5",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "11"
+          }
+        }
+      ],
+      "vm_status": "Move abort in 0x1::coin: ECOIN_STORE_NOT_PUBLISHED(0x60005): Account hasn't registered `CoinStore` for `CoinType`"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 10:09:55.823740870 +00:00)	 Utc: (2024-12-07 10:09:55.823790366 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x8b655ffe691f4899d9e94403e9764050b5c72d35aee675adc975140df9131278",
+        "signature": "0x0f72cbae2fb4bfc7b6c7be5178c69197a0acbc4c0612e09f0f29569826791e3b22ba033973d4fa42f124e4bf2c309723b83a91dda7d92fefe8ef18df8aef7704"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x7c51434a11dede07e1f867c612de0626bae0230fd844029b9d7f1b77209d2f81",
+    "height": 4541679,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733566194713853,
+      "utc_date_time": "2024-12-07T10:09:54.713853+00:00"
+    }
+  },
+  "hash": "0x36e95aa3ab2807996695ff0cd20bae9dfc9597eb63bd0daddbd0881dd4507d98",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733566223000000,
+      "utc_date_time": "2024-12-07T10:10:23+00:00"
+    },
+    "sender": {
+      "Move": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"
+    },
+    "sequence_number": 7,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven::register",
+      "type_arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven::Token0"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 4,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "3",
+            "io_gas_units": "1",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "4"
+          }
+        }
+      ],
+      "vm_status": "Move abort in 0x1::coin: ECOIN_INFO_NOT_PUBLISHED(0x10003): `CoinType` hasn't been initialized as a coin"
+    }
+  },
+  "status": "Fail"
+}
+
+
+Local: (2024-12-07 10:10:46.894593344 +00:00)	 Utc: (2024-12-07 10:10:46.894652176 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0xe6b99e6c4b673d2dc006bebe5ab5a5f173b669a49b1c08ceb09e9f9d7820a59dbe1cb324124b61a689488d5581ee336e24c16edac9bb0338e313ce59e4336302"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x8e3769e1d1c011617da934e6ff423bb7924ff8d3f2669565315e915c8c463527",
+    "height": 4541722,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733566245044520,
+      "utc_date_time": "2024-12-07T10:10:45.044520+00:00"
+    }
+  },
+  "hash": "0x7b4ccdf7d02c8e06660cd0b8a4e7a2f08a47be1a1126f89bf3dc865b35c190a7",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733566273000000,
+      "utc_date_time": "2024-12-07T10:11:13+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 125,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::token_factory_gamma_testing_eleven::create_token",
+      "type_arguments": [],
+      "arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+        "IndiaToken",
+        "IND",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 1024,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+          },
+          "sequence_number": "13",
+          "type": "0x1::account::CoinRegisterEvent",
+          "data": {
+            "type_info": {
+              "account_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+              "module_name": "0x637573746f6d5f746f6b656e5f74657374696e675f656c6576656e",
+              "struct_name": "0x546f6b656e30"
+            }
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::coin::CoinDeposit",
+          "data": {
+            "account": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+            "amount": "1000000",
+            "coin_type": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven::Token0"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "28",
+            "account_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+          },
+          "sequence_number": "0",
+          "type": "0x1::coin::DepositEvent",
+          "data": {
+            "amount": "1000000"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "5",
+            "io_gas_units": "5",
+            "storage_fee_quants": "101360",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "1024"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 10:11:10.673430700 +00:00)	 Utc: (2024-12-07 10:11:10.673486951 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x8b655ffe691f4899d9e94403e9764050b5c72d35aee675adc975140df9131278",
+        "signature": "0xda414f141aa0c18f8df7be0388a9d62bc60e5dc4b1e6d8109bcecdcea09a470d0b373136391ea8d9b384ce7835066b6e249677fc59b7566b67817d6a73806101"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0x7a4360aabbd98498b5645726abc9232a1095d656fa330616a18bd7c0eab3d8ad",
+    "height": 4541754,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733566269615115,
+      "utc_date_time": "2024-12-07T10:11:09.615115+00:00"
+    }
+  },
+  "hash": "0xb7fe6a7111c287ee97c6825f7671ca156fe8f6e01f0110079667000d38250128",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733566298000000,
+      "utc_date_time": "2024-12-07T10:11:38+00:00"
+    },
+    "sender": {
+      "Move": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"
+    },
+    "sequence_number": 8,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven::register",
+      "type_arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven::Token0"
+      ],
+      "arguments": []
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 511,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"
+          },
+          "sequence_number": "3",
+          "type": "0x1::account::CoinRegisterEvent",
+          "data": {
+            "type_info": {
+              "account_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+              "module_name": "0x637573746f6d5f746f6b656e5f74657374696e675f656c6576656e",
+              "struct_name": "0x546f6b656e30"
+            }
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "5",
+            "storage_fee_quants": "50200",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "511"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 10:11:40.262659020 +00:00)	 Utc: (2024-12-07 10:11:40.262731755 UTC)
+
+CMD:
+Run
+Output:
+{
+  "authenticator": {
+    "Move": {
+      "Ed25519": {
+        "public_key": "0x0f1d5704f448f307736b66fbb75a4fcecf658d12c9058033f674a4e1fd50ea41",
+        "signature": "0x4019eebb5ab7a64753bcbe0feb99f724d396186ee5bf706970b7b047240f4c361a8e4c2457478c7c7ea4610b67d94632f610bd7848b191b61823f0a7bc431d01"
+      }
+    }
+  },
+  "block_header": {
+    "hash": "0xcc7b3c5e4a0b99bf446487dac799c4093551c24d681d284cadb754735d5c767e",
+    "height": 4541794,
+    "timestamp": {
+      "microseconds_since_unix_epoch": 1733566298833638,
+      "utc_date_time": "2024-12-07T10:11:38.833638+00:00"
+    }
+  },
+  "hash": "0x045aa63c8e8d95ced4ba0d8dfa0abda2c8d8e2544df6c3cd1cb7232c8991dfb1",
+  "header": {
+    "chain_id": 6,
+    "expiration_timestamp": {
+      "microseconds_since_unix_epoch": 1733566328000000,
+      "utc_date_time": "2024-12-07T10:12:08+00:00"
+    },
+    "sender": {
+      "Move": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+    },
+    "sequence_number": 126,
+    "gas_unit_price": 100,
+    "max_gas_amount": 500000
+  },
+  "payload": {
+    "Move": {
+      "type": "entry_function_payload",
+      "function": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven::transfer",
+      "type_arguments": [
+        "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven::Token0"
+      ],
+      "arguments": [
+        "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918",
+        "1000000"
+      ]
+    }
+  },
+  "output": {
+    "Move": {
+      "gas_used": 9,
+      "events": [
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::coin::CoinWithdraw",
+          "data": {
+            "account": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471",
+            "amount": "1000000",
+            "coin_type": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven::Token0"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "29",
+            "account_address": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471"
+          },
+          "sequence_number": "0",
+          "type": "0x1::coin::WithdrawEvent",
+          "data": {
+            "amount": "1000000"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::coin::CoinDeposit",
+          "data": {
+            "account": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918",
+            "amount": "1000000",
+            "coin_type": "0x335faef3a35932c83b5a2f7cff5edee7a9ff38bcb5c1ad6dc176e43ebd9af471::custom_token_testing_eleven::Token0"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "8",
+            "account_address": "0xdc167abaaeefe34ca7426b800d6099584d4db56851b7dabb5c1d50925b691918"
+          },
+          "sequence_number": "0",
+          "type": "0x1::coin::DepositEvent",
+          "data": {
+            "amount": "1000000"
+          }
+        },
+        {
+          "guid": {
+            "creation_number": "0",
+            "account_address": "0x0"
+          },
+          "sequence_number": "0",
+          "type": "0x1::transaction_fee::FeeStatement",
+          "data": {
+            "execution_gas_units": "4",
+            "io_gas_units": "5",
+            "storage_fee_quants": "0",
+            "storage_fee_refund_quants": "0",
+            "total_charge_gas_units": "9"
+          }
+        }
+      ],
+      "vm_status": "Executed successfully"
+    }
+  },
+  "status": "Success"
+}
+
+
+Local: (2024-12-07 10:12:33.320899358 +00:00)	 Utc: (2024-12-07 10:12:33.320977507 UTC)
+
+CMD:
+View
+Output:
+{"result":["1000000"]}
+
+
+Local: (2024-12-07 10:12:57.517458721 +00:00)	 Utc: (2024-12-07 10:12:57.517517857 UTC)
+
+CMD:
+View
+Output:
+{"result":["0"]}
+
+
